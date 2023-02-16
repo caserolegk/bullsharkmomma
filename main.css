@@ -1,4 +1,14 @@
 body {
 background-color:midnightblue;
 color:darkorange;
+font-size:35px;
+}
+
+a{
+color:darkorange;
+text-decoration:line-through;
+}
+a:hover{
+color:white;
+text-decoration:none;
 }

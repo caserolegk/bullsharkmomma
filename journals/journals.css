@@ -1,0 +1,48 @@
+body {
+    background-color:rgb(232, 252, 252);
+    color:rgba(0, 0, 0, 0.866);
+    display: block;
+    margin: 10px;
+    cursor:text;
+    font-family: 'Crimson Text', serif;
+    font-size:24px;
+}
+
+.header {
+    position:sticky;
+    padding: 25px;
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+}
+.title{
+    text-align:center;
+}
+
+a:link, a:visited {
+    background-color: rgb(130, 170, 170);
+    color:beige;
+    padding:12px 24px;
+    text-decoration: none;
+    display:block;
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+a:hover {
+    background-color:blueviolet; 
+}
+/* how to get the background color to actually be resizable box around link */
+
+div {
+    display:block
+}
+
+.container{
+        width:52%;
+        margin: auto;
+        padding: 25px;
+}

@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aquamarine;
+    margin:0;
+    font-family: 'Itim', cursive;
+}
+/* list of font families creates hiearchy  */
+
+.content-box {
+    background-color: tomato;
+    width: 200px;
+    height: 200px;
+    padding: 30px;
+    border: 20px solid lightgreen;
+    margin: 50px;
+}
+
+.border-box {
+    background-color: tomato;
+    width: 200px;
+    height: 200px;
+    padding: 30px;
+    border: 20px solid lightgreen;
+    margin: 50px;
+    box-sizing: border-box;
+}
+.circle {
+    background-color: rgb(2, 36, 37);
+    color: tomato;
+    width: 300px;
+    height: 300px;
+    padding: 50px;
+    border-radius: 100% 100% 0 0;
+}

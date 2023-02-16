@@ -1,0 +1,44 @@
+body {
+    background-color:greenyellow;
+    max-width: 750px;
+    margin: 0 auto;
+    font-family: 'Itim', cursive;
+}
+p{
+    font-size:18px;
+    background-color:rgb(109, 99, 245);
+    border:2px dotted honeydew;
+    padding:20px;
+    text-align:center;
+    font-family: 'Itim', cursive;
+    /* min-height:150px; */
+}
+
+ul {
+    font-size:18px;
+    background-color:rgb(109, 99, 245);
+    border:2px dotted honeydew;
+    padding:15px;
+    font-family: 'Itim', cursive;
+}
+
+
+img{
+align-self: auto;
+}
+
+h1{
+color:darkturquoise;
+background: rgb(255, 255, 105);
+padding: 15px;
+margin: 0px;
+}
+
+a {
+    color: hotpink;
+    text-decoration:dashed;
+}
+
+a:hover {
+background:greenyellow;
+}
