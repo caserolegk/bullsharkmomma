@@ -1,0 +1,47 @@
+*{box-sizing:content-box;
+margin:0;
+}
+
+.audio{
+text-align:"center";
+width:30px;
+}
+
+.body{
+    background-color: black;
+}
+
+/* .flex{
+    height:100vh;
+    width:700px;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    } */
+
+.bottom{
+background-color: black;
+position:absolute;
+bottom:0;
+margin:0;
+padding:0;
+width:130vw;
+height:10vw;
+animation: blink 12s infinite alternate ease-in;
+}
+
+.top{
+background-color: black;
+position:absolute;
+top:0;
+margin:0;
+padding:0;
+width:130vw;
+height:10vw;
+animation: blink 12s infinite alternate ease-in;
+}
+
+@keyframes blink{
+0%{transform:scale(1);}
+100%{transform:scale(7);}
+}
