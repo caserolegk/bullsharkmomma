@@ -26,7 +26,7 @@ bottom:0;
 margin:0;
 padding:0;
 width:130vw;
-height:10vw;
+height:5vw;
 animation: blink 12s infinite alternate ease-in;
 }
 
@@ -37,11 +37,13 @@ top:0;
 margin:0;
 padding:0;
 width:130vw;
-height:10vw;
+height:5vw;
 animation: blink 12s infinite alternate ease-in;
 }
 
 @keyframes blink{
 0%{transform:scale(1);}
-100%{transform:scale(7);}
+100%{transform:scale(14);}
 }
+
+
