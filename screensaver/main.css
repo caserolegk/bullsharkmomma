@@ -27,7 +27,8 @@ margin:0;
 padding:0;
 width:130vw;
 height:5vw;
-animation: blink 12s infinite alternate ease-in;
+animation: blink 5s infinite alternate ease-in;
+animation-iteration-count: infinite;
 }
 
 .top{
@@ -38,12 +39,30 @@ margin:0;
 padding:0;
 width:130vw;
 height:5vw;
-animation: blink 12s infinite alternate ease-in;
+animation: blink 5s infinite alternate ease-out;
+animation-iteration-count: infinite;
 }
+
+/* .flash{
+background-color: aliceblue;
+width:500px;
+height:500px;
+position:relative;
+top:50%;
+left:50%;
+animation:blink-end;
+animation-duration:2s;
+animation-delay:0s;
+animation-iteration-count:6;
+} */
+
 
 @keyframes blink{
 0%{transform:scale(1);}
-100%{transform:scale(14);}
+100%{transform:scale(14.5);}
 }
 
-
+@keyframes blink-end{
+0%{transform:scale(0);}
+100%{tranform:scale(10);}
+}
