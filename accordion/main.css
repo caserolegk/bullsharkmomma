@@ -4,6 +4,7 @@ html, body, img{
 body {
     background-color:darkkhaki;
     transition:background 1s;
+    overflow:hidden;
 }
 
 
