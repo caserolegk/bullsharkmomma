@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Javascript</title>
+            <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+            <link rel="stylesheet" href="main.css">
+        </head>
+    
+    
+<body>
+
+    <!-- first we set up the button that is triggering our javascript -->
+<!-- note that the element doesn't need to be a <button> to work -->
+<button onclick="toggleClass()">Click me...</button>
+
+<!-- this is the element that we will be altering with our javascript -->
+<div id="menu" class="box">
+  the box
+</div>
+
+<div id="obj" class="square"></div>
+
+
+
+<!-- advised you place script in bottom of the body elements, want rest of the document to load before java -->
+<script>
+    // this is the function we want to call when the button is clicked
+    function toggleClass() {
+      // first we set up a variable to store a longer line of code in case we want to reference it quickly later
+      // here, we're creating a shorthand way of targeting a specific element with an id by using javascript's getElementById method
+      var menu = document.getElementById("menu");
+      var obj = document.getElementById("obj");
+    
+      // in this line we use javascript's built-in classList property and toggle method to toggle a class on and off
+      menu.classList.toggle("active");
+      obj.classList.toggle("spin");
+    }
+ </script>
+</body>
+</html>

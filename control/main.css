@@ -1,0 +1,37 @@
+*{box-sizing:border-box;
+}
+html, body{
+    background: black;
+    cursor:crosshair;
+}
+body{
+    text-align:center;
+    vertical-align: middle;
+    display: table-cell;
+    color:white;
+}
+
+.poem{
+    max-width:275px;
+    margin:200px;
+    cursor:wait;
+}
+.fade{
+  position: absolute;
+  right: 25px;
+  top:25px;
+}
+.fade:hover{
+    background-color:crimson;
+    color:cornsilk;
+    padding:5px;
+}
+
+.button{
+border-radius: 15px;
+}
+.button:hover{
+    background-color:crimson;
+    color:cornsilk;
+    padding:5px;
+}

@@ -1,0 +1,59 @@
+/* *{box-sizing: border-box;
+} */
+
+/* .active {
+    padding: 20px;
+    background-color: slategray;
+    color: white;
+    font-size: 20px;
+  } */
+
+  body{
+    background: lightblue;
+  }
+
+  .box{
+    padding:20px;
+    background-color: slategray;
+    font-size:20px;
+    position:fixed;
+    top:0;
+    right:-300px;
+    width:300px;
+    height:100vh;
+    border-left:1px solid;
+    transition: right .5s;
+  }
+
+  .active{
+    right:0;
+  }
+
+  button{
+        padding:10px;
+        border: 1px solid;
+        cursor: pointer;
+        background: white;
+  }
+
+  button:hover{
+    background-color: pink;
+  }
+
+  .square{
+    position:fixed;
+    bottom:30px;
+    left: 30px;
+    background:chartreuse;
+    width:100px;
+    height:100px;
+    border: 1px solid;
+    border-color:coral;
+    transition: all 1s;
+  }
+
+  .spin{
+background:lightyellow;
+transform:rotate(360deg);
+/* transition: all .5s; */
+  }
